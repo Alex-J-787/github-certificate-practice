@@ -43,3 +43,4 @@ enclosure = xml_tree.SubElement(item_element, 'enclosure', {
 
 output_tree = xml_tree.ElementTree(rss_element)
 output_tree.write('podcast.xml', encoding = ('UTF-8'), xml_declaration=True)
+
